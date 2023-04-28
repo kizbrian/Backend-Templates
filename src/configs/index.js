@@ -1,5 +1,7 @@
-const env = require('./env.config'); 
+const db = require('./db.config'); 
+const env = require('./env.config');
 
 module.exports = {
-    env
+    db,
+    env,
 };
